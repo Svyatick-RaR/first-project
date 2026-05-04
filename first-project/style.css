@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    background: rgb(255, 0, 119);
+    color: aqua;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    padding: 50px 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    }
+.header-menu{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  margin: 0;
+  list-style: none;
+  gap: 20px
+  
+}
