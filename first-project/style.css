@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 header{
     display: flex;
     position: fixed;
@@ -13,6 +14,7 @@ header{
     padding: 50px 10px;
     z-index: 1;
     box-sizing: border-box;
+
     }
 .header-menu{
   display: flex;
@@ -21,5 +23,38 @@ header{
   margin: 0;
   list-style: none;
   gap: 20px
+  }
+.header-menu a {
+    text-decoration: none;
+}
+h1{
+  font-size: 40px;
+  scroll-margin-top: 150px;
+  align-items: center;
   
+
+
+}
+content{
+  box-sizing: border-box;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  margin: auto;
+  background-color: rgba(224, 238, 153, 0.5);
+  width: 1000px;
+  height: 2000px;
+  gap: 100px;
+}
+.first-section{
+  width: 1000px;
+  height: 950px;
+  display: block;
+}
+.second-section{
+  width: 1000px;
+  height: 950px;
+  display: block;
 }
